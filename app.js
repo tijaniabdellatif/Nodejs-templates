@@ -1,23 +1,38 @@
 const getNotes = require('./notes');
 const chalk = require('chalk');
-// const validator = require('validator');
+// const { processExpression } = require('@vue/compiler-core');
+// console.log(getNotes());
+// console.log(chalk.blue.bgRed.bold('Hello world'));
 
+// console.log(`
+// CPU: ${chalk.red('90%')}
+// RAM: ${chalk.green('40%')}
+// DISK: ${chalk.yellow('70%')}
+// `);
 
-console.log(getNotes());
-console.log(chalk.blue.bgRed.bold('Hello world'));
+// Procces
+const command = process.argv[2];
 
-console.log(`
-CPU: ${chalk.red('90%')}
-RAM: ${chalk.green('40%')}
-DISK: ${chalk.yellow('70%')}
-`);
+if (command === 'add'){
 
+    console.log(chalk.green('The user is adding notes'));
+    console.log(chalk.black.bgWhite.bold('Adding notes'));
+}
 
-console.log(chalk.rgb(123, 45, 67).underline('Underlined reddish color'));
-console.log(chalk.hex('#DEADED').bold('Bold gray!'));
-// console.log(validator.isURL('https://www.google.com'));
-// const firstname = 'Tijani';
-// console.log(firstname);
-// console.log(lastName);
-//  const sum = add(4,2);
-// console.log(sum);
+else if(command === 'remove'){
+
+    console.log(chalk.red('The user is deleting notes'));
+    console.log(chalk.black.bgRed.bold('deleting  notes'));
+}
+
+else if(command === 'update'){
+
+    console.log(chalk.yellow('The user is adding notes'));
+    console.log(chalk.black.bgYellow.bold('Adding notes'));
+}
+
+else {
+
+    console.log(chalk.blue('The user havent decided yet'));
+    console.log(chalk.black.bgBlue.bold('decisions ....'));
+}
