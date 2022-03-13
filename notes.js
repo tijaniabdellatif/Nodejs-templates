@@ -13,7 +13,8 @@ const addNotes = (title,body) => {
       const notes = loadNotes();
       const duplicatedNote = notes.find(note => note.title === title);
 
-
+      //debugger;
+      
       if(!duplicatedNote){
         notes.push({title,body});
         console.log(chalk.black.bgYellow('Success'));
@@ -61,6 +62,8 @@ const listNotes = () => {
 
 
      const notes = loadNotes();
+   
+
      printTable(notes);
 }
 
