@@ -1,6 +1,6 @@
 const fs = require('fs');
 const chalk = require('chalk');
-const { printTable } = require('console-table-printer');
+const { printTable,Table } = require('console-table-printer');
 
 const getNotes = () => {
 
@@ -11,14 +11,13 @@ const getNotes = () => {
 const addNotes = (title,body) => {
 
       const notes = loadNotes();
-      const duplicateNotes = notes.filter(element =>  element.title === title);
-      if(duplicateNotes.length === 0){
-        notes.push({title,body});
+      const duplicatedNote = notes.find(note => note.title === title);
 
+
+      if(!duplicatedNote){
+        notes.push({title,body});
         console.log(chalk.black.bgYellow('Success'));
         saveNotes(notes,'Note saved');
-       
-        
       }
       else {
         console.log(chalk.hex('#000').bgRed('Error !!'))
@@ -65,11 +64,27 @@ const listNotes = () => {
      printTable(notes);
 }
 
+const readNote = (title) => {
 
+    const notes = loadNotes();
+    const note = notes.find(note => note.title === title);
+
+    if(note){
+
+        console.log(chalk.bgGreen.inverse(note.title));
+        console.log(chalk.bgGreen.inverse(note.body));
+    }
+    else {
+
+        console.log(chalk.bgRed.inverse('Note not found'));
+        
+    } 
+}
 module.exports = {
     
     getNotes,
     addNotes,
     deleteNotes,
-    listNotes
+    listNotes,
+    readNote
 };
