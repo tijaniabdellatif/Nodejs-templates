@@ -1,6 +1,7 @@
-const getNotes = require('./notes');
+const notes = require('./notes');
 const chalk = require('chalk');
 const yargs = require('yargs');
+const { argv } = require('yargs');
 yargs.version('1.1.0');
 
 
@@ -24,11 +25,11 @@ yargs.command({
         }
      },
 
-
      handler:function(argv){
 
-          console.log('Title : '+ argv.title);
-          console.log('\n the body is : '+ argv.body);
+        notes.addNotes(argv.title,argv.body);
+        //   console.log('Title : '+ argv.title);
+        //   console.log('\n the body is : '+ argv.body);
      }
      
 });
@@ -39,9 +40,17 @@ yargs.command({
 
     command:'delete',
     describe:'Deleting a note',
-    handler:function(){
+    builder:{
 
-        console.log(chalk.black.bgRed.bold('removing new note'));
+        title:{
+            describe:'Note note',
+            demandOption:true,
+            type:'string'
+        },
+       
+    },
+    handler:function(argv){
+        notes.deleteNotes(argv.title);
     }
 })
 
@@ -70,32 +79,3 @@ yargs.command({
 })
 
 yargs.parse();
-// console.log(yargs.argv);
-
-// Procces
-// const command = process.argv[2];
-// console.log(process.argv);
-
-// if (command === 'add'){
-
-//     console.log(chalk.green('The user is adding notes'));
-//     console.log(chalk.black.bgWhite.bold('Adding notes'));
-// }
-
-// else if(command === 'remove'){
-
-//     console.log(chalk.red('The user is deleting notes'));
-//     console.log(chalk.black.bgRed.bold('deleting  notes'));
-// }
-
-// else if(command === 'update'){
-
-//     console.log(chalk.yellow('The user is adding notes'));
-//     console.log(chalk.black.bgYellow.bold('Adding notes'));
-// }
-
-// else {
-
-//     console.log(chalk.blue('The user havent decided yet'));
-//     console.log(chalk.black.bgBlue.bold('decisions ....'));
-// }
