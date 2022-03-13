@@ -1,21 +1,12 @@
-const chalk = require('chalk');
+const request = require('request');
 
+const API_KEY = '1df5ba9c1add2f73fb2f1eebe871a25b';
+const BASE_URI = 'http://api.weatherstack.com/current?';
+const endpoint = `${BASE_URI}access_key=${API_KEY}&query=37.8267,-122.4233`;
 
-console.log('Front end is waiting for request the UI waiting the data...');
-setTimeout(() => {
-    console.log('Starting the request to the server');
-    setTimeout(() => {
-        console.log('getting data from server');
-        setTimeout(() => {
-            console.log(chalk.black.bgGreen('Printing data to user'));
-            setTimeout(() => {
-                 console.log(chalk.red.inverse('Server Stopping',[]));
-            },1000);
-        },2300)
-    },2000)
-    setTimeout(() => {
-       console.log('Rendering the UI...');
-    },2000); 
-},1500);
+request({ url:endpoint },(error,response) => {
 
-
+       const data = JSON.parse(response.body); 
+       console.log(data.current);
+       console.log(data.location)
+});
