@@ -1,5 +1,6 @@
 const fs = require('fs');
 const chalk = require('chalk');
+const { printTable } = require('console-table-printer');
 
 const getNotes = () => {
 
@@ -10,19 +11,16 @@ const getNotes = () => {
 const addNotes = (title,body) => {
 
       const notes = loadNotes();
-      const duplicateNotes = notes.filter((element => {
-
-          return element.title === title;
-      }));
-
+      const duplicateNotes = notes.filter(element =>  element.title === title);
       if(duplicateNotes.length === 0){
         notes.push({title,body});
-        saveNotes(notes);
-        console.log(chalk.green.bgYellow('Success'));
-        console.log(chalk.green('New note added'));
+
+        console.log(chalk.black.bgYellow('Success'));
+        saveNotes(notes,'Note saved');
+       
+        
       }
       else {
-
         console.log(chalk.hex('#000').bgRed('Error !!'))
         console.log(chalk.red('Duplicate note'));
       }
@@ -44,34 +42,27 @@ const loadNotes = () => {
 
 }
 
-const saveNotes = function(notes){
+const saveNotes = function(notes,message){
 
     const dataJSON = JSON.stringify(notes);
     fs.writeFileSync('notes.json',dataJSON);
+    console.log(chalk.black.bgGreen(message));
 }
 
 
 const deleteNotes = (title) => {
 
     const notes = loadNotes();
-    const keepNotes = notes.filter(note =>{
+    const keepNotes = notes.filter(note => note.title !== title);
+    (keepNotes.length < notes.length) ? saveNotes(keepNotes,'Note removed') : console.log(chalk.red.inverse('no note found'));
 
-          return note.title !== title
-    });
-   
-    if(keepNotes.length < notes.length){
+}
 
-
-        console.log(chalk.black.bgGreen('The note is removed'));
-        saveNotes(keepNotes);
-    }
-    else {
-
-        console.log(chalk.red.inverse('no note found'));
-    }
+const listNotes = () => {
 
 
-   
+     const notes = loadNotes();
+     printTable(notes);
 }
 
 
@@ -79,5 +70,6 @@ module.exports = {
     
     getNotes,
     addNotes,
-    deleteNotes
+    deleteNotes,
+    listNotes
 };
