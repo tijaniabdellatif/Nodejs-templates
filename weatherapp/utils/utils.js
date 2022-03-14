@@ -7,8 +7,7 @@ const BASE_URI = 'http://api.weatherstack.com/current?';
 const geoCode = (address,callback) => {
 
     const endpoint2 = `${BASE_URI2}${encodeURIComponent(address)}.json?access_token=${API_KEY2}&limit=1`;
-     request({url:endpoint2,json:true},(error,response) => {
-
+    request({url:endpoint2,json:true},(error,response) => {
         const {features} = response.body;
         if(error){
             callback('Unable to connect to Location services',undefined);
@@ -18,7 +17,6 @@ const geoCode = (address,callback) => {
             callback('Unable to find location, Try another Search',undefined);
         }
         else{
-
             callback(undefined,{
                 latitude:features[0].center[1],
                 longitude:features[0].center[0],
@@ -29,7 +27,6 @@ const geoCode = (address,callback) => {
      });
 
 }
-
 const forcast = (lat,long,callback) => {
     const endpoint = `${BASE_URI}access_key=${API_KEY}&query=${encodeURIComponent(lat)},${encodeURIComponent(long)}&units=f`;
     request({url:endpoint,json:true},(error,response) => {
