@@ -16,6 +16,26 @@ app.get('',(req,res) => {
     });
 
 })
+
+app.get('/about',(req,res) => {
+
+    res.render('about',{
+
+          title:'About - informations',
+          name:'Tijani Abdellatif'
+    });
+
+});
+
+app.get('/help',(req,res) => {
+
+    res.render('help',{
+
+          title:'Help - F&Q',
+          name:'Tijani Abdellatif'
+    });
+
+});
 app.get('/weather',(req,res) => {
     res.send(
         {
