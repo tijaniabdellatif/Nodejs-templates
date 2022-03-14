@@ -19,8 +19,8 @@ const geoCode = (address,callback) => {
         else{
 
             callback(undefined,{
-                latitude:response.body.features[0].center[0],
-                longitude:response.body.features[0].center[1],
+                latitude:response.body.features[0].center[1],
+                longitude:response.body.features[0].center[0],
                 location:response.body.features[0].place_name
             });
         }
@@ -29,11 +29,31 @@ const geoCode = (address,callback) => {
 
 }
 
+const forcast = (lat,long,callback) => {
+    const endpoint = `${BASE_URI}access_key=${API_KEY}&query=${encodeURIComponent(lat)},${encodeURIComponent(long)}&units=f`;
+    request({url:endpoint,json:true},(error,response) => {
 
+        if(error){
+            callback('Unable to connect to Location services',undefined);
+        }
+        else if(response.body.error){
+
+            callback('Unable to find location, try another search',undefined);
+        }
+        else{
+
+            const {weather_descriptions,temperature,feelslike} = response.body.current;
+            callback(undefined,weather_descriptions[0] +' it is currently '+ temperature + ' may be a precip with : '+ feelslike + '%');
+        }
+
+     });
+
+}
 
 
 module.exports = {
 
     geoCode,
+    forcast
 
 };
