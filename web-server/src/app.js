@@ -3,30 +3,19 @@ const express = require('express');
 
 const app = express();
 const __DIRECTORYPATH = path.join(__dirname,'../public'); 
+
+app.set('view engine','hbs');
 app.use(express.static(__DIRECTORYPATH));
 
-//Making domain app.com
-// app.get('/',(req,res) => {
-//      res.send(`<h1>Hello world<h1>`);
+app.get('',(req,res) => {
 
-// });
+    res.render('index',{
 
-// app.get('/help',(req,res) => {
-//     res.send({
+          title:'Weather App',
+          name:'Tijani Abdellatif'
+    });
 
-    
-//         name:'tijani',
-//         age:33
-//     });
-
-// })
-
-// app.get('/about',(req,res) => {
-//     res.send(`<h1>Hello world from about page <h1>`);
-
-// })
-
-
+})
 app.get('/weather',(req,res) => {
     res.send(
         {
