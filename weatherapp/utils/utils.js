@@ -9,19 +9,20 @@ const geoCode = (address,callback) => {
     const endpoint2 = `${BASE_URI2}${encodeURIComponent(address)}.json?access_token=${API_KEY2}&limit=1`;
      request({url:endpoint2,json:true},(error,response) => {
 
+        const {features} = response.body;
         if(error){
             callback('Unable to connect to Location services',undefined);
         }
-        else if(response.body.features.length === 0){
+        else if(features.length === 0){
 
             callback('Unable to find location, Try another Search',undefined);
         }
         else{
 
             callback(undefined,{
-                latitude:response.body.features[0].center[1],
-                longitude:response.body.features[0].center[0],
-                location:response.body.features[0].place_name
+                latitude:features[0].center[1],
+                longitude:features[0].center[0],
+                location:features[0].place_name
             });
         }
 
