@@ -28,6 +28,7 @@ app.get('',(req,res) => {
 
 app.get('/about',(req,res) => {
 
+
     res.render('about',{
 
           title:'About - informations',
@@ -47,34 +48,41 @@ app.get('/help',(req,res) => {
 
 });
 app.get('/weather',(req,res) => {
+
+    if(!req.query.location){
+         return res.send({
+            error:'You must provide a location'
+         })
+    }
+
     res.send(
         {
             forecast:'it s raining',
-            localion:'Rabat'
+            location:req.query.location
         }
     );
 
 });
-app.get('/products',(req,res) => {
+// app.get('/products',(req,res) => {
    
-    // query parameters
+//     // query parameters
    
 
-    if(!req.query.search){
+//     if(!req.query.search){
 
 
-        return res.send({
+//         return res.send({
 
-          error:'you must provide a search term'
-        });
-    }
+//           error:'you must provide a search term'
+//         });
+//     }
 
-    console.log(req.query.search);
-    res.send({
+//     console.log(req.query.search);
+//     res.send({
 
-       products:[]
-    })
-})
+//        products:[]
+//     })
+// })
 
 
 app.get('/help/*',(req,res) => {
