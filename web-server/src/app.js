@@ -3,7 +3,7 @@ const express = require('express');
 const hbs = require('hbs');
 const app = express();
 const weather = require('./utilities/utils');
-const getArticles = require('./utilities/articles');
+const {getArticle,getByCountry} = require('./utilities/articles');
 
 /* Define paths for express config */
 const __DIRECTORYPATH = path.join(__dirname,'../public'); 
@@ -50,25 +50,7 @@ app.get('/help',(req,res) => {
 
 });
 
-
-app.get('/articles',(req,res) => {
-
-    getArticles((error,response) => {
-         if(error){
-            return res.status(404).send({
-                error:'error in retreving data'
-            })
-         }
-
-         res.status(200).send({
-            allnews:response
-         })
-    })
-
-});
-
-
- app.get('/weather',(req,res) => {
+app.get('/weather',(req,res) => {
 
     if(!req.query.address){
 
@@ -102,6 +84,47 @@ app.get('/articles',(req,res) => {
 
     })
 });
+
+
+app.get('/articles',(req,res) => {
+
+    getArticle((error,response) => {
+         if(error){
+            return res.status(404).send({
+                error:'error in retreving data'
+            })
+         }
+
+         res.status(200).send({
+            allnews:response
+         })
+    })
+
+});
+
+app.get('/feeds',(req,res) => {
+
+
+      if(!req.query.country){
+
+        return res.status(404).send({
+
+            error:"You must provide a country"
+        })
+      }
+
+      getByCountry(req.query.country,(error,news) => {
+          if(error){
+            return res.status(404).send({error})
+          }
+
+          res.status(200).send({
+
+              news
+          })
+      })
+});
+
 
 app.get('/help/*',(req,res) => {
     res.render('404',{
