@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
 const app = express();
+const weather = require('./utilities/utils');
 
 /* Define paths for express config */
 const __DIRECTORYPATH = path.join(__dirname,'../public'); 
@@ -47,43 +48,43 @@ app.get('/help',(req,res) => {
     });
 
 });
-app.get('/weather',(req,res) => {
 
-    if(!req.query.location){
-         return res.send({
-            error:'You must provide a location'
-         })
+
+
+ app.get('/weather',(req,res) => {
+
+    if(!req.query.address){
+
+        return res.send({
+
+            error:'You must provide an addresse'
+
+        });
     }
 
-    res.send(
-        {
-            forecast:'it s raining',
-            location:req.query.location
+    weather.geoCode(req.query.address,(error,{latitude,longitude,location}) => {
+
+        if(error){
+
+            return res.send({ error })
         }
-    );
 
+        weather.forcast(latitude,longitude,(error,data) => {
+
+              if(error){
+
+                return res.send({error})
+              }
+
+              res.send({
+                  forcast:data,
+                  location,
+                  address:req.query.address
+              })
+        })
+
+    })
 });
-// app.get('/products',(req,res) => {
-   
-//     // query parameters
-   
-
-//     if(!req.query.search){
-
-
-//         return res.send({
-
-//           error:'you must provide a search term'
-//         });
-//     }
-
-//     console.log(req.query.search);
-//     res.send({
-
-//        products:[]
-//     })
-// })
-
 
 app.get('/help/*',(req,res) => {
     res.render('404',{
@@ -101,9 +102,6 @@ app.get('*',(req,res) => {
         title:'Page 404'
       })
 })
-
-
-
 app.listen(3000,() => {
 
      console.log('Server Start on port 3000');
