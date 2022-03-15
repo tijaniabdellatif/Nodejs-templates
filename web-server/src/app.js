@@ -62,7 +62,7 @@ app.get('/help',(req,res) => {
         });
     }
 
-    weather.geoCode(req.query.address,(error,{latitude,longitude,location}) => {
+    weather.geoCode(req.query.address,(error,{latitude,longitude,location} = {}) => {
 
         if(error){
 
