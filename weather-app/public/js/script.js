@@ -1,7 +1,7 @@
 const endpoint = 'https://puzzle.mead.io/puzzle';
-const forcast = 'http://127.0.0.1:3000/weather?address=Boston';
-const news = 'http://127.0.0.1:3000/articles';
-const morroco = 'http://127.0.0.1:3000/feeds?country=';
+const forcast = '/weather?address=Boston';
+const news = '/articles';
+const morroco = '/feeds?country=';
 const form = document.querySelector('#form');
 
 const fetchData = async (uri) => {

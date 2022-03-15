@@ -2,6 +2,9 @@ const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
 const app = express();
+
+const port = process.env.PORT || 3000;
+
 const weather = require('./utilities/utils');
 const {getArticle,getByCountry} = require('./utilities/articles');
 
@@ -139,7 +142,8 @@ app.get('*',(req,res) => {
       })
 })
 
-app.listen(3000,() => {
+app.listen(port,() => {
 
-     console.log('Server Start on port 3000');
+     console.log('Server Start on port  : ' + port);
 });
+
