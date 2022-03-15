@@ -3,7 +3,7 @@ const forcast = '/weather?address=Boston';
 const news = '/articles';
 const morroco = '/feeds?country=';
 const form = document.querySelector('#form');
-
+// Form
 const fetchData = async (uri) => {
 
     const response = await fetch(uri);
