@@ -55,9 +55,7 @@ app.get('/weather',(req,res) => {
     if(!req.query.address){
 
         return res.send({
-
             error:'You must provide an addresse'
-
         });
     }
 
@@ -72,7 +70,7 @@ app.get('/weather',(req,res) => {
 
               if(error){
 
-                return res.status(404).send({error})
+                return res.send({error})
               }
 
               res.status(200).send({
@@ -125,7 +123,6 @@ app.get('/feeds',(req,res) => {
       })
 });
 
-
 app.get('/help/*',(req,res) => {
     res.render('404',{
       description:'Help article note found',
@@ -133,7 +130,6 @@ app.get('/help/*',(req,res) => {
       title:'Page 404'
     })
 })
-
 
 app.get('*',(req,res) => {
       res.render('404',{

@@ -12,6 +12,7 @@ const geoCode = (address,callback) => {
     request({url:endpoint2,json:true},(error,response) => {
         
         const {features} = response.body;
+       
     
         if(error){
             callback('Unable to connect to Location services',undefined);
@@ -37,6 +38,7 @@ const forcast = (lat,long,callback) => {
     const endpoint = `${BASE_URI}access_key=${API_KEY}&query=${encodeURIComponent(lat)},${encodeURIComponent(long)}&units=f`;
     request({url:endpoint,json:true},(error,response) => {
 
+        console.log(response);
         if(error){
             callback('Unable to connect to Location services',undefined);
         }
@@ -46,7 +48,7 @@ const forcast = (lat,long,callback) => {
         }
         else{
 
-            console.log(response.body.current);
+            console.log(response.body);
             const {weather_descriptions
                 ,temperature,
                 feelslike,

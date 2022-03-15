@@ -21,18 +21,6 @@ const fetchData = async (uri) => {
 }
 
 
-fetchData(forcast).then(data => {
-
-    if(data.error){
-
-        console.log(data.error);
-    }
-    else {
-
-        console.log(data.location);
-        console.log(data.forcast);
-    }
-})
 
 
 fetchData(news).then(data => {
@@ -136,4 +124,18 @@ fetchData(morroco).then(data => {
 
     }
 
+})
+
+
+fetchData(forcast).then(data => {
+
+    if(data.error){
+
+        console.log(data.error);
+    }
+    else {
+
+        console.log(data.location);
+        console.log(data.forcast);
+    }
 })
