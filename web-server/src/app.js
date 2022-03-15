@@ -68,7 +68,6 @@ app.get('/articles',(req,res) => {
 });
 
 
-
  app.get('/weather',(req,res) => {
 
     if(!req.query.address){
@@ -120,6 +119,7 @@ app.get('*',(req,res) => {
         title:'Page 404'
       })
 })
+
 app.listen(3000,() => {
 
      console.log('Server Start on port 3000');
