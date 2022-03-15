@@ -32,6 +32,7 @@ const geoCode = (address,callback) => {
      });
 
 }
+
 const forcast = (lat,long,callback) => {
     const endpoint = `${BASE_URI}access_key=${API_KEY}&query=${encodeURIComponent(lat)},${encodeURIComponent(long)}&units=f`;
     request({url:endpoint,json:true},(error,response) => {
