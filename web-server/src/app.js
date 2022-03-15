@@ -73,10 +73,10 @@ app.get('/help',(req,res) => {
 
               if(error){
 
-                return res.send({error})
+                return res.status(404).send({error})
               }
 
-              res.send({
+              res.status(200).send({
                   forcast:data,
                   location,
                   address:req.query.address

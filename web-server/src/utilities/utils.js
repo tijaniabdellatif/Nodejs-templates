@@ -36,7 +36,6 @@ const forcast = (lat,long,callback) => {
     const endpoint = `${BASE_URI}access_key=${API_KEY}&query=${encodeURIComponent(lat)},${encodeURIComponent(long)}&units=f`;
     request({url:endpoint,json:true},(error,response) => {
 
-        console.log(lat,long);
         if(error){
             callback('Unable to connect to Location services',undefined);
         }
@@ -46,8 +45,37 @@ const forcast = (lat,long,callback) => {
         }
         else{
 
-            const {weather_descriptions,temperature,feelslike} = response.body.current;
-            callback(undefined,weather_descriptions[0] +' it is currently '+ temperature + ' may be a precip with : '+ feelslike + '%');
+            console.log(response.body.current);
+            const {weather_descriptions
+                ,temperature,
+                feelslike,
+                weather_icons,
+                wind_speed,
+                wind_degree,
+                humidity,
+                precip,
+                pressure
+            } = response.body.current;
+            callback(undefined,{
+
+                description:weather_descriptions[0],
+                icon:weather_icons[0],
+                wind:{
+                    speed:wind_speed,
+                    degree:wind_degree
+                },
+
+                humidity:humidity,
+                temperatur:{
+
+                    actual:temperature,
+                    feels:feelslike
+                },
+
+                precip:precip,
+                pressure:pressure
+
+            })
         }
 
      });
