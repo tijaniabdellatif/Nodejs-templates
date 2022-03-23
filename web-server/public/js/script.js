@@ -19,9 +19,6 @@ const fetchData = async (uri) => {
     }
    
 }
-
-
-
 form.addEventListener('submit',(e) => {
  
     e.preventDefault();

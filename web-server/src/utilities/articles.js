@@ -1,5 +1,4 @@
 const request = require('request');
-
 const __KEY = 'pub_54914ffefa206bd297ec0e024e7c778dbf85';
 const __URI = 'https://newsdata.io/api/1/news?apikey=';
 const __URI2 = 'https://newsdata.io/api/1/sources?apikey=';
