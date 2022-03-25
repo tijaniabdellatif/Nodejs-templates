@@ -8,8 +8,7 @@
     "olat": "33.6006194",
     "lat": "33.6000338",
     "lng": "-7.5313778",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "440",
@@ -20,56 +19,7 @@
     "olat": "33.600747767072",
     "lat": "33.6000383",
     "lng": "-7.531411",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "552",
-    "code": "kzn-101",
-    "label": "KEMMOU DIYAE",
-    "ptvAddr": "13 Allée des Jasmins, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.538512",
-    "olat": "33.572108",
-    "lat": "33.6099384",
-    "lng": "-7.5319768",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "554",
-    "code": "kzn-102",
-    "label": "KEMMOU MOHMED NOUR",
-    "ptvAddr": "13 Allée des Jasmins, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.5296165",
-    "olat": "33.6099048",
-    "lat": "33.6099384",
-    "lng": "-7.5319768",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "556",
-    "code": "kzn-103",
-    "label": "KEMMOU ZIYAD",
-    "ptvAddr": "13 Allée des Jasmins, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.538512",
-    "olat": "33.572108",
-    "lat": "33.6099384",
-    "lng": "-7.5319768",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "570",
-    "code": "kzn-110",
-    "label": "MAJDOUB ZAKARIA",
-    "ptvAddr": "90 Boulevard Chefchaouni, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.5318448",
-    "olat": "33.6096905",
-    "lat": "33.6088078",
-    "lng": "-7.5342996",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "526",
@@ -80,8 +30,7 @@
     "olat": "33.5922739",
     "lat": "33.5922812",
     "lng": "-7.5542098",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "648",
@@ -92,8 +41,7 @@
     "olat": "33.5917764",
     "lat": "33.5914526",
     "lng": "-7.553129",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "596",
@@ -104,8 +52,7 @@
     "olat": "33.5863799",
     "lat": "33.5865527",
     "lng": "-7.5650339",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "580",
@@ -116,20 +63,7 @@
     "olat": "33.604415",
     "lat": "33.6055158",
     "lng": "-7.5200167",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "562",
-    "code": "kzn-106",
-    "label": "LAHLIMI KHADIJA",
-    "ptvAddr": "Boulevard Moulay Ahmed Baamrani, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.5205798",
-    "olat": "33.6081353",
-    "lat": "33.6081433",
-    "lng": "-7.5206909",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "500",
@@ -140,8 +74,7 @@
     "olat": "33.611383",
     "lat": "33.6067777",
     "lng": "-7.5124592",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "364",
@@ -152,8 +85,7 @@
     "olat": "33.576361",
     "lat": "33.577015",
     "lng": "-7.561371",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "366",
@@ -164,8 +96,7 @@
     "olat": "33.576361",
     "lat": "33.577015",
     "lng": "-7.561371",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "398",
@@ -176,8 +107,7 @@
     "olat": "33.5947769",
     "lat": "33.577015",
     "lng": "-7.561371",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "560",
@@ -188,8 +118,7 @@
     "olat": "33.5880663",
     "lat": "33.580582",
     "lng": "-7.554385",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "650",
@@ -200,8 +129,7 @@
     "olat": "33.5825236",
     "lat": "33.580582",
     "lng": "-7.554385",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "652",
@@ -212,8 +140,7 @@
     "olat": "33.5825236",
     "lat": "33.580582",
     "lng": "-7.554385",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "656",
@@ -224,8 +151,7 @@
     "olat": "33.604513",
     "lat": "33.605484",
     "lng": "-7.521553",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "658",
@@ -236,8 +162,7 @@
     "olat": "33.604513",
     "lat": "33.605484",
     "lng": "-7.521553",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "474",
@@ -248,8 +173,7 @@
     "olat": "33.5790773",
     "lat": "33.5790853",
     "lng": "-7.5032444",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "488",
@@ -260,32 +184,7 @@
     "olat": "33.5913937",
     "lat": "33.5913912",
     "lng": "-7.5020604",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "400",
-    "code": "kzn-25",
-    "label": "BANANI ADAM",
-    "ptvAddr": "Boulevard Mohamed Zafzaf, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.506259",
-    "olat": "33.5880083",
-    "lat": "33.588033",
-    "lng": "-7.5062858",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "402",
-    "code": "kzn-26",
-    "label": "BANANI TAHA",
-    "ptvAddr": "Boulevard Mohamed Zafzaf, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.506259",
-    "olat": "33.5880083",
-    "lat": "33.588033",
-    "lng": "-7.5062858",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "574",
@@ -296,8 +195,7 @@
     "olat": "33.587898",
     "lat": "33.5885112",
     "lng": "-7.5499941",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "382",
@@ -308,8 +206,7 @@
     "olat": "33.5874061",
     "lat": "33.588984",
     "lng": "-7.5487291",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "384",
@@ -320,8 +217,7 @@
     "olat": "33.5874061",
     "lat": "33.588984",
     "lng": "-7.5487291",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "590",
@@ -332,8 +228,7 @@
     "olat": "33.6099048",
     "lat": "33.588984",
     "lng": "-7.5487291",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "592",
@@ -344,8 +239,7 @@
     "olat": "33.6099048",
     "lat": "33.588984",
     "lng": "-7.5487291",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "390",
@@ -356,8 +250,7 @@
     "olat": "33.588082",
     "lat": "33.588143",
     "lng": "-7.5494696",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "392",
@@ -368,8 +261,7 @@
     "olat": "33.588082",
     "lat": "33.588143",
     "lng": "-7.5494696",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "394",
@@ -380,8 +272,7 @@
     "olat": "33.588082",
     "lat": "33.588143",
     "lng": "-7.5494696",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "566",
@@ -392,8 +283,7 @@
     "olat": "33.56468",
     "lat": "33.587615",
     "lng": "-7.5502376",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "352",
@@ -404,8 +294,7 @@
     "olat": "33.571193",
     "lat": "33.5740453",
     "lng": "-7.5525924",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "540",
@@ -416,8 +305,7 @@
     "olat": "33.544021",
     "lat": "33.5676199",
     "lng": "-7.5523463",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "476",
@@ -428,8 +316,7 @@
     "olat": "33.5534483",
     "lat": "33.5527038",
     "lng": "-7.5797151",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "478",
@@ -440,8 +327,7 @@
     "olat": "33.5534483",
     "lat": "33.5527038",
     "lng": "-7.5797151",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "480",
@@ -452,8 +338,18 @@
     "olat": "33.5534483",
     "lat": "33.5527038",
     "lng": "-7.5797151",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
+  },
+  {
+    "id": "434",
+    "code": "kzn-42",
+    "label": "CHEBBAR YAHYA",
+    "ptvAddr": "Boulevard Ali Yaata, Aîn Sebaâ, Casablanca-Settat",
+    "olng": "-7.5357702",
+    "olat": "33.5811914",
+    "lat": "33.59948",
+    "lng": "-7.537989",
+    "type": "pickup"
   },
   {
     "id": "642",
@@ -464,8 +360,29 @@
     "olat": "33.564141",
     "lat": "33.5687179",
     "lng": "-7.5477684",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
+  },
+  {
+    "id": "520",
+    "code": "kzn-85",
+    "label": "FOURAR ADAM",
+    "ptvAddr": "37 Allée des Tamaris, Aîn Sebaâ, Casablanca-Settat",
+    "olng": "-7.526504",
+    "olat": "33.60616",
+    "lat": "33.610309",
+    "lng": "-7.529383",
+    "type": "pickup"
+  },
+  {
+    "id": "522",
+    "code": "kzn-86",
+    "label": "FOURAR INESS",
+    "ptvAddr": "37 Allée des Tamaris, Aîn Sebaâ, Casablanca-Settat",
+    "olng": "-7.526504",
+    "olat": "33.60616",
+    "lat": "33.610309",
+    "lng": "-7.529383",
+    "type": "pickup"
   },
   {
     "id": "410",
@@ -476,8 +393,7 @@
     "olat": "33.581616",
     "lat": "33.5731822",
     "lng": "-7.5779224",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "608",
@@ -488,8 +404,7 @@
     "olat": "33.616885",
     "lat": "33.6162014",
     "lng": "-7.4805114",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "610",
@@ -500,44 +415,7 @@
     "olat": "33.616885",
     "lat": "33.6162014",
     "lng": "-7.4805114",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "594",
-    "code": "kzn-122",
-    "label": "MRIZIG RIM",
-    "ptvAddr": "Boulevard Al Imam Allait Ibnou Saad, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.481362",
-    "olat": "33.610104",
-    "lat": "33.6108165",
-    "lng": "-7.4800691",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "450",
-    "code": "kzn-50",
-    "label": "EDDOUBAJI ABDELLAH",
-    "ptvAddr": "2 Boulevard Al Maghreb Al Arabi, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.4839574",
-    "olat": "33.602693",
-    "lat": "33.6005929",
-    "lng": "-7.4840388",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "452",
-    "code": "kzn-51",
-    "label": "EDDOUBAJI ABDERRAHMANE",
-    "ptvAddr": "2 Boulevard Al Maghreb Al Arabi, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.4839574",
-    "olat": "33.602693",
-    "lat": "33.6005929",
-    "lng": "-7.4840388",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "506",
@@ -548,8 +426,7 @@
     "olat": "33.600339",
     "lat": "33.6002956",
     "lng": "-7.4915262",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "640",
@@ -560,8 +437,7 @@
     "olat": "33.5813858",
     "lat": "33.5811502",
     "lng": "-7.5376123",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "534",
@@ -572,8 +448,7 @@
     "olat": "33.575532",
     "lat": "33.578556",
     "lng": "-7.508446",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "354",
@@ -584,8 +459,7 @@
     "olat": "33.5921988",
     "lat": "33.592083",
     "lng": "-7.504095",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "356",
@@ -596,8 +470,7 @@
     "olat": "33.5921988",
     "lat": "33.592083",
     "lng": "-7.504095",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "358",
@@ -608,8 +481,7 @@
     "olat": "33.5921988",
     "lat": "33.592083",
     "lng": "-7.504095",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "654",
@@ -620,8 +492,7 @@
     "olat": "33.571301",
     "lat": "33.5699385",
     "lng": "-7.5337248",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "576",
@@ -632,8 +503,7 @@
     "olat": "33.5731809",
     "lat": "33.5713596",
     "lng": "-7.5371716",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "578",
@@ -644,8 +514,7 @@
     "olat": "33.5731809",
     "lat": "33.5713596",
     "lng": "-7.5371716",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "626",
@@ -656,8 +525,7 @@
     "olat": "33.577932",
     "lat": "33.5758279",
     "lng": "-7.5388405",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "630",
@@ -668,8 +536,7 @@
     "olat": "33.56909",
     "lat": "33.5793173",
     "lng": "-7.5443646",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "636",
@@ -680,20 +547,7 @@
     "olat": "33.6053091",
     "lat": "33.580344",
     "lng": "-7.5453494",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "490",
-    "code": "kzn-70",
-    "label": "EL MOUHADDEB TAHA",
-    "ptvAddr": "86 Rue Ibn Rachid, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5804581",
-    "olat": "33.6019831",
-    "lat": "33.6020591",
-    "lng": "-7.5801997",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "514",
@@ -704,8 +558,7 @@
     "olat": "33.6030525",
     "lat": "33.6030113",
     "lng": "-7.5817011",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "516",
@@ -716,8 +569,7 @@
     "olat": "33.6030525",
     "lat": "33.6030113",
     "lng": "-7.5817011",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "518",
@@ -728,8 +580,7 @@
     "olat": "33.6030525",
     "lat": "33.6030113",
     "lng": "-7.5817011",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "396",
@@ -740,20 +591,7 @@
     "olat": "33.5983737",
     "lat": "33.5988417",
     "lng": "-7.5838629",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "432",
-    "code": "kzn-41",
-    "label": "CHBALY WAEL",
-    "ptvAddr": "38 Rue Rahal Ben Ahmed, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5880341",
-    "olat": "33.5960895",
-    "lat": "33.596041",
-    "lng": "-7.5879687",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "598",
@@ -764,8 +602,7 @@
     "olat": "33.5945593",
     "lat": "33.5946897",
     "lng": "-7.5898816",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "600",
@@ -776,8 +613,7 @@
     "olat": "33.5945593",
     "lat": "33.5946897",
     "lng": "-7.5898816",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "602",
@@ -788,8 +624,7 @@
     "olat": "33.5945593",
     "lat": "33.5946897",
     "lng": "-7.5898816",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "604",
@@ -800,56 +635,7 @@
     "olat": "33.5945593",
     "lat": "33.5946897",
     "lng": "-7.5898816",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "416",
-    "code": "kzn-33",
-    "label": "BIJA KHANSAE",
-    "ptvAddr": "49 Rue Zineb Ishak, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5794193",
-    "olat": "33.5858314",
-    "lat": "33.5858631",
-    "lng": "-7.5793346",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "418",
-    "code": "kzn-34",
-    "label": "BIJA ROMAYSAE",
-    "ptvAddr": "49 Rue Zineb Ishak, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5777436",
-    "olat": "33.5868768",
-    "lat": "33.5858631",
-    "lng": "-7.5793346",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "586",
-    "code": "kzn-118",
-    "label": "MOUSAID FATIMA-ZAHRA",
-    "ptvAddr": "Rue 32, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.5148484",
-    "olat": "33.5964629",
-    "lat": "33.5964094",
-    "lng": "-7.5148791",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "588",
-    "code": "kzn-119",
-    "label": "MOUSSAID NOUR AYA",
-    "ptvAddr": "Rue 32, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.5148635",
-    "olat": "33.5964406",
-    "lat": "33.5964094",
-    "lng": "-7.5148791",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "454",
@@ -860,8 +646,7 @@
     "olat": "33.5949696",
     "lat": "33.5948624",
     "lng": "-7.5124384",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "512",
@@ -872,8 +657,7 @@
     "olat": "33.5938602",
     "lat": "33.5938457",
     "lng": "-7.5176659",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "422",
@@ -884,8 +668,7 @@
     "olat": "33.5920122",
     "lat": "33.5919579",
     "lng": "-7.5170034",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "494",
@@ -896,8 +679,7 @@
     "olat": "33.592303",
     "lat": "33.5932282",
     "lng": "-7.5197859",
-    "type": "pickup",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "496",
@@ -908,8 +690,7 @@
     "olat": "33.592617",
     "lat": "33.5932282",
     "lng": "-7.5197859",
-    "type": "pickup",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "498",
@@ -920,8 +701,7 @@
     "olat": "33.5933046",
     "lat": "33.5932282",
     "lng": "-7.5197859",
-    "type": "pickup",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "612",
@@ -932,8 +712,7 @@
     "olat": "33.574694",
     "lat": "33.8188445898457",
     "lng": "-7.29080200195313",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "614",
@@ -944,8 +723,7 @@
     "olat": "33.574694",
     "lat": "33.8188445898457",
     "lng": "-7.29080200195313",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "404",
@@ -956,8 +734,7 @@
     "olat": "33.574694",
     "lat": "33.5749285",
     "lng": "-7.5199875",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "448",
@@ -968,20 +745,7 @@
     "olat": "33.5885465",
     "lat": "33.5886702",
     "lng": "-7.595846",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "628",
-    "code": "kzn-139",
-    "label": "RAJI ADNANE",
-    "ptvAddr": "Rue Sergent Azdem Driss, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5908414",
-    "olat": "33.5854408",
-    "lat": "33.5857412",
-    "lng": "-7.5905155",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "414",
@@ -992,56 +756,7 @@
     "olat": "33.5846704",
     "lat": "33.5861415",
     "lng": "-7.5846911",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "428",
-    "code": "kzn-39",
-    "label": "CHAOUQI DOUAA",
-    "ptvAddr": "Boulevard Ibnou Tachafine, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.546942",
-    "olat": "33.5874061",
-    "lat": "33.5855816",
-    "lng": "-7.5821199",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "532",
-    "code": "kzn-91",
-    "label": "HAMIMAZ KENZA",
-    "ptvAddr": "Boulevard Ibnou Tachafine, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5790928",
-    "olat": "33.5852707",
-    "lat": "33.5853565",
-    "lng": "-7.5767708",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "424",
-    "code": "kzn-37",
-    "label": "BOUSHAB ADAM",
-    "ptvAddr": "9 Rue Amyot d'Inville, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.578487",
-    "olat": "33.5834994",
-    "lat": "33.5834424",
-    "lng": "-7.5784178",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "380",
-    "code": "kzn-15",
-    "label": "ANDALOUBY HAMZA",
-    "ptvAddr": "31 Rue Dardar, Mers Sultan, Casablanca-Settat",
-    "olng": "-7.5966877",
-    "olat": "33.5840579",
-    "lat": "33.5811324",
-    "lng": "-7.5964568",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "644",
@@ -1052,8 +767,7 @@
     "olat": "33.5806418",
     "lat": "33.5797352",
     "lng": "-7.595537",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "646",
@@ -1064,8 +778,7 @@
     "olat": "33.5806418",
     "lat": "33.5797352",
     "lng": "-7.595537",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "606",
@@ -1076,32 +789,7 @@
     "olat": "33.600684",
     "lat": "33.595604",
     "lng": "-7.524872",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "386",
-    "code": "kzn-18",
-    "label": "AZ-EL ARAB AYMAN",
-    "ptvAddr": "Boulevard Mohamed Jamal Addorra, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.53514",
-    "olat": "33.59737",
-    "lat": "33.600472",
-    "lng": "-7.523843",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "388",
-    "code": "kzn-19",
-    "label": "AZ-EL ARAB HIBA",
-    "ptvAddr": "Boulevard Mohamed Jamal Addorra, Aîn Sebaâ, Casablanca-Settat",
-    "olng": "-7.53514",
-    "olat": "33.59737",
-    "lat": "33.600472",
-    "lng": "-7.523843",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "456",
@@ -1112,8 +800,7 @@
     "olat": "33.6005046",
     "lat": "33.600472",
     "lng": "-7.523843",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "458",
@@ -1124,8 +811,7 @@
     "olat": "33.6005046",
     "lat": "33.600472",
     "lng": "-7.523843",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "558",
@@ -1136,20 +822,7 @@
     "olat": "33.58903165",
     "lat": "33.604378",
     "lng": "-7.523595",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "536",
-    "code": "kzn-93",
-    "label": "HOUSNI RIM",
-    "ptvAddr": "10 Rue 21, Sidi Bernoussi, Casablanca-Settat",
-    "olng": "-7.5369631",
-    "olat": "33.5933813",
-    "lat": "33.611553",
-    "lng": "-7.504838",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "436",
@@ -1160,44 +833,7 @@
     "olat": "33.589866",
     "lat": "33.611095",
     "lng": "-7.497917",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "360",
-    "code": "kzn-5",
-    "label": "AHABBANE MED TAHA",
-    "ptvAddr": "Boulevard Imam El Ghazali, Sidi Bernoussi, Casablanca-Settat",
-    "olng": "-7.4855153",
-    "olat": "33.6227478",
-    "lat": "33.622734",
-    "lng": "-7.485707",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "362",
-    "code": "kzn-6",
-    "label": "AHABBANE SAFAE",
-    "ptvAddr": "Boulevard Imam El Ghazali, Sidi Bernoussi, Casablanca-Settat",
-    "olng": "-7.4855153",
-    "olat": "33.6227478",
-    "lat": "33.622734",
-    "lng": "-7.485707",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "468",
-    "code": "kzn-59",
-    "label": "EL BAYED ILYAS",
-    "ptvAddr": "633 Boulevard Al Imam Malik, Sidi Bernoussi, Casablanca-Settat",
-    "olng": "-7.4792203",
-    "olat": "33.616885",
-    "lat": "33.616478",
-    "lng": "-7.479034",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "368",
@@ -1208,8 +844,7 @@
     "olat": "33.5796456",
     "lat": "33.5790916",
     "lng": "-7.5116841",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "632",
@@ -1220,8 +855,7 @@
     "olat": "33.5795925",
     "lat": "33.5798228",
     "lng": "-7.510802",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "634",
@@ -1232,8 +866,7 @@
     "olat": "33.5795925",
     "lat": "33.5798228",
     "lng": "-7.510802",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "486",
@@ -1244,8 +877,7 @@
     "olat": "33.5788872",
     "lat": "33.5789027",
     "lng": "-7.5096059",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "624",
@@ -1256,44 +888,7 @@
     "olat": "33.5795712",
     "lat": "33.5795699",
     "lng": "-7.5108181",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "584",
-    "code": "kzn-117",
-    "label": "MOUNAJI SALMA",
-    "ptvAddr": "Rue 4, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.4924835",
-    "olat": "33.58937",
-    "lat": "33.5898435",
-    "lng": "-7.4922417",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "464",
-    "code": "kzn-57",
-    "label": "EL BAHIA LINA",
-    "ptvAddr": "Boulevard Mohamed Zafzaf, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.4988658",
-    "olat": "33.5934118",
-    "lat": "33.5933381",
-    "lng": "-7.4988414",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "466",
-    "code": "kzn-58",
-    "label": "EL BAHIA MOUAD",
-    "ptvAddr": "Boulevard Mohamed Zafzaf, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.4988225",
-    "olat": "33.5934254",
-    "lat": "33.5933381",
-    "lng": "-7.4988414",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "412",
@@ -1304,8 +899,7 @@
     "olat": "33.590721",
     "lat": "33.5910075",
     "lng": "-7.5268635",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "528",
@@ -1316,8 +910,7 @@
     "olat": "33.590916",
     "lat": "33.5910075",
     "lng": "-7.5268635",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "530",
@@ -1328,8 +921,7 @@
     "olat": "33.590916",
     "lat": "33.5910075",
     "lng": "-7.5268635",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "502",
@@ -1340,8 +932,7 @@
     "olat": "33.5908161",
     "lat": "33.5910068",
     "lng": "-7.5265314",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "504",
@@ -1352,8 +943,7 @@
     "olat": "33.5908161",
     "lat": "33.5910068",
     "lng": "-7.5265314",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "638",
@@ -1364,8 +954,7 @@
     "olat": "33.585836",
     "lat": "33.5889103",
     "lng": "-7.5229673",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "406",
@@ -1376,8 +965,7 @@
     "olat": "33.593481721",
     "lat": "33.5903545",
     "lng": "-7.5210362",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "408",
@@ -1388,8 +976,7 @@
     "olat": "33.593481721",
     "lat": "33.5903545",
     "lng": "-7.5210362",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "616",
@@ -1400,8 +987,7 @@
     "olat": "33.5713507",
     "lat": "33.5842909",
     "lng": "-7.5250269",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "460",
@@ -1412,8 +998,7 @@
     "olat": "33.5842648",
     "lat": "33.5845955",
     "lng": "-7.5251097",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "462",
@@ -1424,8 +1009,7 @@
     "olat": "33.5842648",
     "lat": "33.5845955",
     "lng": "-7.5251097",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "470",
@@ -1436,8 +1020,7 @@
     "olat": "33.593381",
     "lat": "33.5842072",
     "lng": "-7.5246633",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "472",
@@ -1448,8 +1031,7 @@
     "olat": "33.593381",
     "lat": "33.5842072",
     "lng": "-7.5246633",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "538",
@@ -1460,8 +1042,7 @@
     "olat": "33.5839613",
     "lat": "33.5831654",
     "lng": "-7.524293",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "376",
@@ -1472,8 +1053,7 @@
     "olat": "33.593458",
     "lat": "33.5819048",
     "lng": "-7.5239271",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "378",
@@ -1484,8 +1064,7 @@
     "olat": "33.593458",
     "lat": "33.5819048",
     "lng": "-7.5239271",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "582",
@@ -1496,32 +1075,7 @@
     "olat": "33.62495972",
     "lat": "33.5808569",
     "lng": "-7.5209334",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "524",
-    "code": "kzn-87",
-    "label": "GHAFIR IDRISSI RIHAB",
-    "ptvAddr": "Boulevard Hassan Bouayad, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.523022",
-    "olat": "33.5792447",
-    "lat": "33.5791359",
-    "lng": "-7.5228539",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "544",
-    "code": "kzn-97",
-    "label": "KALAMI HAITEM",
-    "ptvAddr": "Boulevard Mohamed Zafzaf, Sidi Moumen, Casablanca-Settat",
-    "olng": "-7.557419",
-    "olat": "33.6024358",
-    "lat": "33.5749308",
-    "lng": "-7.522985",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "370",
@@ -1532,8 +1086,7 @@
     "olat": "33.577425",
     "lat": "33.575755",
     "lng": "-7.5281945",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "372",
@@ -1544,8 +1097,7 @@
     "olat": "33.577425",
     "lat": "33.575755",
     "lng": "-7.5281945",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "374",
@@ -1556,8 +1108,7 @@
     "olat": "33.577425",
     "lat": "33.575755",
     "lng": "-7.5281945",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "618",
@@ -1568,8 +1119,7 @@
     "olat": "33.613811",
     "lat": "33.6128797",
     "lng": "-7.4878311",
-    "type": "pickup",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "620",
@@ -1580,8 +1130,7 @@
     "olat": "33.613805",
     "lat": "33.6128797",
     "lng": "-7.4878311",
-    "type": "pickup",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "622",
@@ -1592,20 +1141,7 @@
     "olat": "33.613805",
     "lat": "33.6128797",
     "lng": "-7.4878311",
-    "type": "pickup",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "492",
-    "code": "kzn-71",
-    "label": "ELLOUANE AYA",
-    "ptvAddr": "384 Boulevard Al Imam Malik, Sidi Bernoussi, Casablanca-Settat",
-    "olng": "-7.486196",
-    "olat": "33.613583",
-    "lat": "33.6148196",
-    "lng": "-7.4855678",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "420",
@@ -1616,8 +1152,7 @@
     "olat": "33.589973",
     "lat": "33.589336",
     "lng": "-7.573334",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "568",
@@ -1628,8 +1163,7 @@
     "olat": "33.600481885",
     "lat": "33.593212",
     "lng": "-7.562419",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "438",
@@ -1640,8 +1174,7 @@
     "olat": "33.5769583",
     "lat": "33.576398",
     "lng": "-7.5854066",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "564",
@@ -1652,20 +1185,7 @@
     "olat": "33.5837884",
     "lat": "33.584015",
     "lng": "-7.5811652",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "426",
-    "code": "kzn-38",
-    "label": "BOUSHAB DOUAA",
-    "ptvAddr": "Boulevard Hassan Al Alaoui, Assoukhour Assawda, Casablanca-Settat",
-    "olng": "-7.5822729",
-    "olat": "33.5853704",
-    "lat": "33.5842534",
-    "lng": "-7.580894",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "662",
@@ -1676,8 +1196,7 @@
     "olat": "33.557208",
     "lat": "33.580582",
     "lng": "-7.561371",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "662",
@@ -1686,42 +1205,7 @@
     "ptvAddr": "Boulevard Okba Bnou Nafie, Hay Mohammadi, Casablanca-Settat",
     "lat": "33.580582",
     "lng": "-7.561371",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "662",
-    "code": "kzn-156",
-    "label": "ZINE SAAD",
-    "ptvAddr": "40 Boulevard Abderrahmane Al Mkhanete, Sidi Othmane, Casablanca-Settat",
-    "olng": "-7.558875",
-    "olat": "33.557208",
-    "lat": "33.5606274",
-    "lng": "-7.5708776",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "662",
-    "code": "kzn-157",
-    "label": "Taha Najib",
-    "ptvAddr": "40 Boulevard Abderrahmane Al Mkhanete, Sidi Othmane, Casablanca-Settat",
-    "lat": "33.5606274",
-    "lng": "-7.5708776",
-    "type": "delivery",
-    "date": "03/23/2022"
-  },
-  {
-    "id": "660",
-    "code": "kzn-155",
-    "label": "ZINE HAMZA",
-    "ptvAddr": "40 Boulevard Abderrahmane Al Mkhanete, Sidi Othmane, Casablanca-Settat",
-    "olng": "-7.558875",
-    "olat": "33.557208",
-    "lat": "33.5606309",
-    "lng": "-7.5708692",
-    "type": "delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "508",
@@ -1732,8 +1216,7 @@
     "olat": "33.561775",
     "lat": "33.561851",
     "lng": "-7.575678",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "510",
@@ -1744,8 +1227,7 @@
     "olat": "33.561775",
     "lat": "33.561851",
     "lng": "-7.575678",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "572",
@@ -1756,8 +1238,7 @@
     "olat": "33.5506757",
     "lat": "33.567875",
     "lng": "-7.555035",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "428",
@@ -1768,8 +1249,7 @@
     "olat": "33.5874061",
     "lat": "33.587338",
     "lng": "-7.546998",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "430",
@@ -1780,8 +1260,7 @@
     "olat": "33.5874061",
     "lat": "33.587338",
     "lng": "-7.546998",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "546",
@@ -1792,8 +1271,7 @@
     "olat": "33.567194",
     "lat": "33.559334",
     "lng": "-7.559014",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "548",
@@ -1804,8 +1282,7 @@
     "olat": "33.567194",
     "lat": "33.559334",
     "lng": "-7.559014",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "550",
@@ -1816,8 +1293,7 @@
     "olat": "33.567194",
     "lat": "33.559334",
     "lng": "-7.559014",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "444",
@@ -1828,8 +1304,7 @@
     "olat": "33.6016276",
     "lat": "33.601162",
     "lng": "-7.583099",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   },
   {
     "id": "446",
@@ -1840,7 +1315,6 @@
     "olat": "33.6016276",
     "lat": "33.601162",
     "lng": "-7.583099",
-    "type": "pickup-delivery",
-    "date": "03/23/2022"
+    "type": "pickup"
   }
 ]
